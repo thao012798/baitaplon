@@ -103,10 +103,10 @@
 		</div>
 
 	</nav>
-	<section class="section">
+	<section class="section" style="cursor: pointer;">
 		    <div class="left">
 		    	<div class="divtrai">
-		    		<h5 style="background-color: #7f7f7f;">Văn Mẫu Tiểu Học </h5>
+		    		<h5 style="background-color: rgb(240,240,240);">Văn Mẫu Tiểu Học </h5>
 		    		<img src="tieuhoc.jpg" style="width: 370px">
 		    		<h6>Bài văn hay nhất tả con lợn </h6>
 		    		<img src="conlon.jpg" style="width: 370px">
@@ -116,7 +116,7 @@
 
 		    	</div>
 		    	<div class="divtrai">
-		    		<h5>Văn Mẫu THCS</h5>
+		    		<h5 style="background-color: rgb(240,240,240);">Văn Mẫu THCS</h5>
 		    		<img src="THCS.jpg" style="width: 370px">
 		    		<h6>Bài văn hay nhất : Suy nghĩ của em về nhân vật ông Hai trong truyện ngắn Làng Của Kim Lân</h6>
 		    		<img src="langkimlan.jpg" style="width: 370px">
@@ -124,7 +124,7 @@
 		    		Bài làm : Cách mạng tháng Tám thành công ...
 		    	</div>
 		    	<div class="divtrai">
-		    		<h5>Văn Mẫu THPT</h5>
+		    		<h5 style="background-color: rgb(240,240,240); ">Văn Mẫu THPT</h5>
 		    		<img src="THPT.jpg" style="width: 370px">
 		    		<h6>Suy nghĩ về lòng dũng cảm</h6>
 		    		<img src="longdungcam.jpg" style="width: 370px">
