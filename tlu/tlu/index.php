@@ -25,10 +25,10 @@
                     <i style='font-size:24px' class='fas'>&#xf015;</i>
 
 				</div>
-			    <div class="col-auto">
+			    <div class="col-auto" style="cursor: pointer;">
 				    <select name="Soạn Văn">
 					   <option value="soanvanmau">Soạn Văn</option>
-					   <option value="soanvanmau12"> Soạn Văn Mẫu Lớp 12</option>
+					   <option value="soanvanmau12"> <a href="soanvanmaulop12.php">Soạn Văn Mẫu Lớp 12</a></option>
 					   <option value="soanvanmau11">Soạn Văn Mẫu Lớp 11</option>
 					   <option value="soanvanmau10"> Soạn Văn Mẫu Lớp 10</option>
 					   <option value="soanvanmau10"> Soạn Văn Mẫu Lớp 9</option>
@@ -97,7 +97,7 @@
 				    </select>
 			    </div>
 			    <div class="col-md-1.7" style="cursor: pointer;">
-				      <h6>Bài Văn Hay</h6>
+				      <h6><a href="baivanhay.php">Bài Văn Hay</a></h6>
                 </div>
             </div>		
 		</div>
@@ -107,7 +107,7 @@
 		    <div class="left">
 		    	<div class="divtrai">
 		    		<h5 style="background-color: rgb(240,240,240);">Văn Mẫu Tiểu Học </h5>
-		    		<img src="tieuhoc.jpg" style="width: 370px">
+		    		<img src="anh/tieuhoc.jpg"/ style="width: 370px">
 		    		<h6>Bài văn hay nhất tả con lợn </h6>
 		    		<img src="conlon.jpg" style="width: 370px">
 		    		<p style="color: #7f7f7f;">Đề tài : Em hãy tả con lợn nhà em nuôi
@@ -138,7 +138,7 @@
 		    		
 		    	</div>
 		    	<div class="div1">
-		    		<h4 >Tả Con Búp Bê Của Em</h4>
+		    		<h4 ><a href="baiviet.php">Tả Con Búp Bê Của Em</a></h4>
 		    		<div>
 		    		   <i class='fas fa-folder-open'>Văn mẫu lớp 5</i>
                        <i class="far fa-clock">May 28, 2018</i>
@@ -215,16 +215,16 @@
                     </div>
 		    	</div>
 		    	<div class="div2">
-		    		<h4>Cảm Hứng Nhân Đạo Trong Truyện Kiều Của Nguyễn Du</h4>
+		    		<h4>Phân Tích Nhân Vật Thúy Kiều Trong Truyện Kiều Của Nguyễn Du</h4>
 		    		<div>
-		    		   <i class='fas fa-folder-open'>Văn mẫu lớp 5</i>
-                       <i class="far fa-clock">May 28, 2018</i>
+		    		   <i class='fas fa-folder-open'>Văn mẫu lớp 10</i>
+                       <i class="far fa-clock">February 23, 2018</i>
                        <i class='fas fa-user-alt'>Minh Anh</i>
                     </div>
                     <div class="divnho">
                     	<p><img src="truyenkieu.jpg" alt="bupbe" style="width:200px">
-                    		Đề tài : Tả con búp bê của e
-                    		<div>Bài làm 1: Tủ đồ chơi của e có rất nhiều đồ vật vô cùng đáng yêu và dễ thương.Đó chính là [...]</div> 
+                    		Đề tài : Phân tích nhân vật Thúy Kiều trong Truyện Kiều của Nguyễn Du
+                    		<div>Nguyễn Du  là một kiệt tác nhưng cũng là một hiện tượng phức tạp [...]</div> 
                     	</p>
 
                     </div>
@@ -232,14 +232,14 @@
 		    	<div class="div1">
 		    		<h4>Phân Tích Bài Thơ Tỏ Lòng Của Phạm Ngũ Lão</h4>
 		    		<div>
-		    		   <i class='fas fa-folder-open'>Văn mẫu lớp 5</i>
+		    		   <i class='fas fa-folder-open'>Văn mẫu lớp 10</i>
                        <i class="far fa-clock">May 28, 2018</i>
                        <i class='fas fa-user-alt'>Minh Anh</i>
                     </div>
                     <div class="divnho">
                     	<p><img src="tolong.jpg" alt="bupbe" style="width:200px">
-                    		Đề tài : Tả con búp bê của e
-                    		<div>Bài làm 1: Tủ đồ chơi của e có rất nhiều đồ vật vô cùng đáng yêu và dễ thương.Đó chính là [...]</div> 
+                    		Đề tài : Phân tích bài thơ tỏ lòng của Phạm Ngũ Lão
+                    		<div>Khi nói đến Phạm Ngũ Lão,chúng ta liền nhớ đến người anh hùng xuất thân ở tầng lớp bình dân [...]</div> 
                     	</p>
 
                     </div>
@@ -247,14 +247,14 @@
 		    	<div class="div2">
 		    		<h4>Phân Tích Bài Thơ Chí Phèo Của Nam Cao</h4>
 		    		<div>
-		    		   <i class='fas fa-folder-open'>Văn mẫu lớp 5</i>
+		    		   <i class='fas fa-folder-open'>Văn mẫu lớp 11</i>
                        <i class="far fa-clock">May 28, 2018</i>
                        <i class='fas fa-user-alt'>Minh Anh</i>
                     </div>
                     <div class="divnho">
                     	<p><img src="chipheo.jpg" alt="bupbe" style="width:200px">
-                    		Đề tài : Tả con búp bê của e
-                    		<div>Bài làm 1: Tủ đồ chơi của e có rất nhiều đồ vật vô cùng đáng yêu và dễ thương.Đó chính là [...]</div> 
+                    		Đề tài : Phân tích bài thơ Chí Phéo của Nam Cao
+                    		<div> Trong các tác phẩm phê phán văn học hiện thực phê phán,tác phẩm Chí Phèo -Nam Cao được coi là [...]</div> 
                     	</p>
 
                     </div>
@@ -268,8 +268,8 @@
                     </div>
                     <div class="divnho">
                     	<p><img src="sosanhnvtnuvanvaphu.jpg" alt="bupbe" style="width:200px">
-                    		Đề tài : Tả con búp bê của e
-                    		<div>Bài làm 1: Tủ đồ chơi của e có rất nhiều đồ vật vô cùng đáng yêu và dễ thương.Đó chính là [...]</div> 
+                    		Đề tài : Cảm Nhận Của Anh Chị Về Sự Khác Nhau Và Giống Nhau Giữa Nhân Vật Tnú Và Nhân Vật A Phủ
+                    		<div>Tô Hoài và Nguyễn Trung Thành đều là những cây bút văn xuôi  tiêu biểu [...]</div> 
                     	</p>
 
                     </div>
