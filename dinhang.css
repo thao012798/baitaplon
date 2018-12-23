@@ -82,8 +82,3 @@ a { text-decoration: none;}
 .footer ul li ul li:hover{
     background: #d8d1d1;
 }
-/*LOGIN*/
-.container{
-    margin: 0px auto;
-    background: url(../public_html/img/lg.jpg) no-repeat;
-}
