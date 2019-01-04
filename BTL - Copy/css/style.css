@@ -1,0 +1,177 @@
+body{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    
+}
+li {list-style: none;
+}
+a { text-decoration: none;}
+/*TOP*/
+.top{
+    width: 90%;
+    height: 150px;
+    margin: 0px auto;
+ 
+}
+#top-left{
+    width: 60%;
+    height: 150px;
+    float: left;
+    color:  #ab5555;
+    font-size: 50px;
+    padding: 30px 0px;
+}
+#top-right{
+    width: 30%;
+    height: 40px;
+    float: right;
+    margin-top: 10px;
+}
+#top-right ul li a{
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    padding:0px 5px;
+    float: right;
+    color:  #ab5555;
+}
+#top-right ul li {
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    padding:0px 5px;
+    float: right;
+    color:  #ab5555;
+}
+
+/*MENU*/
+.wrapper{
+    width: 90%;
+    height: 47px;
+    background: hsl(0, 34%, 50%);
+    margin: 0px auto;
+}
+.write{
+    font-size: 18px;
+    color: #fbf8f8;
+    font-weight: bold;
+}
+.menu>ul>li{
+    float: left;
+    padding: 10px 18px;
+    position: relative;
+    border-right: 1px dotted whitesmoke;
+
+}
+.menu>ul>li:last-child{
+    border-right: 0px;
+}
+.menu>ul>li>ul{
+    display: none;
+    position: absolute;
+    background: #ab5555;
+    top: 45px;
+    width: 200px;
+    z-index: 1;
+
+}
+.menu>ul>li:hover ul{display: block}
+.menu ul li:hover{
+    background: #c45973;
+}
+.menu ul li:hover:last-child{
+    background: none;
+}
+#search input[type="text"]{
+    background: url(../img/search.jpg) no-repeat 185px;
+    border: none;
+    background-size: 34px;
+    outline: none;
+    padding: 1px;
+}
+/*SLIDE*/
+.slide{
+    margin: 0px auto;
+    width: 67%;
+    height: auto;
+    margin-left: 5.5%;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 123%;
+    overflow: hidden;
+}
+.carousel-item img{
+    z-index: 2;
+}
+/*CONTENT*/
+.content{
+    margin-top: 30px;
+    padding:  5px 59px;
+    margin: 10px auto;
+    width: 90%;
+    height: 1500px;
+
+}
+#left{
+    float: left;
+    width: 69%;
+    height: auto;
+
+  
+}
+#right{
+    margin-left: 5px;
+    width: 25%;
+    height: 800px;
+    border: 1px solid;
+    float: left;
+}
+/*POST*/
+.content img{
+    width: 200px;
+    height: 200px;
+    margin-top: 34px;
+}
+.tomtat{
+   margin-left: 30%; 
+    margin-top: -20%  
+}
+/*FOOTER*/
+.footer{
+    background: #5d615a;
+    clear: both;
+    margin-top: 10px auto;
+    width: 100%;
+    height: auto;
+    color: whitesmoke;
+}
+/* Chi Tiết*/
+.content_ct h4 {
+        margin-top: 40px;
+        margin-top: 29px;
+}
+.content_ct p{
+    height: auto;
+    width: 653px;
+    margin-top:-219px;
+}
+.content_ct{
+    margin-top: 30px;
+    padding:  5px 172px;
+    margin: 10px auto;
+    width: 90%;
+    height: auto;
+}
+#right_ct {
+    margin-left: 125px;
+    width: 25%;
+    height: 800px;
+    background: powderblue;
+    float: right;
+    margin-top: -100%;
+}
+
+

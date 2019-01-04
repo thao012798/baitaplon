@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 16, 2018, 9:00:39 PM
+    Author     : HANH
+*/
+li {list-style: none;
+}
+a { text-decoration: none;}
+.header{
+    height: 100px;
+    width: 90%;
+    margin: 0px auto;
+    color: blue;
+    font-size: 30px;
+}
+.wrapper{
+    width: 90%;
+    height: 500px;
+    background: #f9f9f9;
+    margin: 0px auto;
+}
+.clear{clear: both;}
+/*MENU*/
+.write{
+    font-size: 18px;
+    color: #fbf8f8;
+    font-weight: bold;
+}
+.menu>ul>li{
+    float: left;
+    padding: 10px 8px;
+    position: relative;
+    border-right: 1px dotted whitesmoke;
+}
+.menu>ul>li:last-child{
+    border-right: 0px;
+}
+.menu{
+    background: #3a3838;
+}
+.menu>ul>li>ul{
+    display: none;
+    position: absolute;
+    background: #3a3838;
+    top: 41px;
+    width: 150px;
+}
+.menu>ul>li:hover ul{display: block}
+.menu ul li:hover{
+    background: #5d64b5;
+}
+.menu ul li:hover:last-child{
+    background: none;
+}
+#search input[type="text"]{
+    background: url(./img/search.png) no-repeat 130px;
+    border: none;
+    background-size: 34px;
+    outline: none;
+    padding: 1px;
+    font-family: -webkit-body;
+
+}
+/*FOOTER*/
+.footer>ul>li{
+    float: left;
+    padding: 10px 64px;
+    border-right: 2px solid #f7f4f3;
+}
+.footer>ul>li:last-child{
+    border-right: 0px;
+}
+.write1{
+    font-size: 18px;
+    color: #3a3838;
+    font-weight: bold;
+}
+.footer ul li ul li:hover{
+    background: #d8d1d1;
+}
+
+
